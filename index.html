@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		<!--================= google font link =================== -->
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@200;300;500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+		
+		
+		<!--================= google font link =================== -->
+		<title>itgeda.com | Home</title>
+		<style>
+		
+		/*====== style for all start ======*/
+			*{
+				margin:0;
+				padding:0;
+				box-sizing:border-box;
+				outline:0;
+			}
+		/*====== style for all end ======*/
+		
+		
+		/*====== header area common design start ====== */
+			header{
+				display:flex;
+				justify-content:space-between;
+				align-items:center;
+				margin:10px;
+			}
+		/*====== header area common design end ====== */
+
+		/*====== nav ul li a common design start =======*/
+			.right-header-div nav ul{
+					margin-right:12px;
+			}
+			.right-header-div nav ul li{
+				list-style-type:none;
+				display:inline-block;
+				padding:10px;
+			}
+			
+			nav ul li a{
+				text-decoration:none;
+				color:#111111;
+				font-family: 'Montserrat', sans-serif;
+				font-style:italic;
+			}
+			nav ul li a:hover{
+				color:#29846E;
+				font-style:normal;
+				
+				text-decoration:underline;
+			}
+		/*====== nav ul li a common design end =======*/
+		
+		/*====== header logo start ======= */
+			.left-header-div img{
+				margin-left:12px;
+			}
+		/*====== header logo end ======== */
+		
+		/* =========== first-section start ============= */
+		
+			.first-section{
+				min-height:100vh;
+				max-width:100vw;
+				background-color:#c8e8e0;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				flex-direction:column;
+				
+			}
+		/* =========== first-section end ============= */
+		
+		/*========== about us section start =========== */
+			.aboutUs-section{
+				height:88vh;
+				width:75%;
+				background-color:#ffffff;
+				margin-top:40px;
+				display:flex;
+			}
+		/*========== about us section end =========== */
+		
+		/*========= left about start =========*/
+			.left-about{
+				height:100%;
+				width:50%;
+				
+			}
+		
+			.right-about{
+				height:100%;
+				width:50%;
+				background-color:#f1f9f7;
+				position: relative;
+			}
+			
+			h4{
+				font-size:20px;
+				letter-spacing:4px;
+				margin:115px 0px 0px 40px;
+				color:#333333;
+			}
+		
+			.headline-p{
+				margin:20px 0px 10px 40px;
+				font-size:20px;
+				font-family:'Montserrat',sans-serif;
+				color:#111111;	
+			}
+		
+			.bottom-heading{
+				height:60vh;
+				margin-top:150px;
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+			}
+			h2{
+				font-size:60px;
+				font-family: 'Montserrat', sans-serif;
+				color:#2e937a;
+			}
+			.common-p{
+				font-size:17px;
+				font-family: 'Roboto', sans-serif;
+				margin:20px 10px 5px 10px;
+			}
+		
+			
+			h5{
+				font-size:42px;
+				margin:20px 0px 10px 40px;
+				font-family:'Roboto',sans-serif;
+				color:#333333;
+			}
+			.onebtn{
+				margin-left:40px;
+			}
+		/*======== left about end ===============*/
+		
+		/*========= right abou start ============*/
+	
+			.about-img{		
+				position: absolute;
+				width:88%;
+				bottom: 0px;
+				margin-left:28px;
+			}
+		/*========= right abou end ============*/
+		
+		
+		.common-btn{
+			font-size:14px;
+			padding:12px 50px;
+			border:none;
+			border-radius:10px;
+			background-color:#2e937a;
+			color:#ffffff;
+			font-family:'Roboto',sasn-serif;
+			letter-spacing:3px;
+			margin-top:32px;
+			
+			
+		}
+		.common-btn:hover{
+			background-color:#333333;
+			transition:0.4s;
+			color:#ffffff;
+			cursor:pointer;
+			
+		}
+		/*============= client-section start===========*/
+		.client-section{
+			min-height:100vh;
+			width:100%;
+			background-color:#fff;
+		}
+		
+		.client-first-div{
+			width:700px;
+			margin-left:190px;
+			margin-top:50px;
+		}
+		.client-first-div h2{
+			font-size:50px;
+		}
+		.client-first-div p{
+			margin-left:0px;
+		}
+		.clients-card-container{
+			display:flex;
+			flex-direction:column;
+			max-height:300px;
+			max-width:300px;
+		
+			margin-top:50px;
+			margin-left:32px;
+		}
+		.clients-head{
+			font-size:22px;
+			font-family:'Roboto',sans-serif;
+			padding:10px;
+			color:#333333;
+		}
+		.cliients-card-body p{
+			font-size:16px;
+			padding:10px;
+			font-family:verdana;
+			line-height:170%;
+			color:#333333;
+		}
+		.clients-head{
+			margin-top:-20px;
+		}
+		
+		.client-second-div{
+			display:flex;
+			justify-content:center;
+			margin-right:60px;
+			
+		}
+		.clients-secont-card{
+			display:flex;
+			justify-content:center;
+			margin-right:60px;
+			margin-top:50px;
+		}
+		
+		/* ============== client section end ============*/
+		
+		/* ============== feature section start ===========*/
+			
+		.feature-section{
+			min-height:110vh;
+			min-width:100%;
+			background-color:#c8e8e0;
+			margin-top:80px;
+		}
+		.feature-main-container{
+			padding-top:0.1rem;
+		}
+		/* ============== feature section end ============== */
+		
+		
+		/*=========== feature card container start ========= */
+		
+		.feature-card-container{
+			width:300px;
+			height:500px;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			border-radius:20px;
+			margin-left:25px;
+			
+			
+			background-color:#ffffff;
+		}
+		.feature-card-img-div{
+			margin-bottom:30px;
+			margin-top:20px;
+		}
+		.feature-card-img{
+			width:70%;
+			
+			
+			
+		}
+		.feature-card-heading{
+			font-size:25px;
+			margin:0px;
+			text-align:center;
+			margin-bottom:20px;
+			color:#2e937a;
+			
+		}
+		.feature-card-sec{
+			display:flex;
+			justify-content:center;
+		}
+		/*============ app design section start ============ */
+		
+		.app-container{
+			height:60vh;
+			width:100%;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		
+		.app-card-container{
+			width:480px;
+			height:270px;
+			background-color:#fbeee0;
+			border-radius:20px;
+			margin:16px;
+			
+		}
+		.app-card-heading h3{
+			font-size:26px;
+			font-family:tahoma;
+			padding: 1rem 0rem 0rem 1.5rem;
+		}
+		.app-card-body p{
+			font-size:2.3rem;
+			font-family:verdana;
+			padding:1.5rem;
+			color:#23937A;
+		}
+		.app-card-link a{
+			font-size:20px;
+			margin:1.5rem;
+			color:#333333;
+			
+		}
+		.app-card-link a:hover{
+			text-decoration:none;
+		}
+		/*============= app design section end =============*/
+		
+		/*============= About me section start from here =============*/
+		
+		.about-me-section{
+			height:170vh;
+			width:100%;
+			background-color:#FCF4EB;
+			
+		}
+		.about-me-container{
+			display:flex;
+			justify-content:center;
+			padding:3rem 0rem;
+		}
+		.about-me-lts{
+			
+			width:48%;
+			padding-top:0.5rem;
+			
+		}
+		
+		.about-me-para{
+			margin:1rem;
+		}
+		.about-me-para p{
+			font-size:1.3rem;
+			font-family:'Roboto',sans-serif;
+			line-height:42px;
+			font-weight:lighter;
+			text-align:justify;
+		}
+		.octopas-img{
+			width:250px;
+			
+			
+		}
+		.about-me-rts{
+			width:30%;
+			padding:2rem 0rem 0rem 3rem;
+			
+			
+			
+		}
+		/*============= About me section end from here =============*/
+		
+		/*========store container start===============*/
+		
+		.store-container{
+			background-color:#ffffff;
+			height:380px;
+			width:900px;
+			display:flex;
+			justify-content:center;
+			flex-direction:column;
+			align-items:center;
+			border-radius:20px;
+			
+		}
+		/*========store container end===============*/
+		
+		/*======== play section start ======*/
+		
+		.play-section{
+			height:60vh;
+			width:100%;
+			background-color:#c8e8e0;
+			display:flex;
+		}
+		
+		/*======== play section end ===========*/
+		
+		.contact-section{
+			min-height:100vh;
+			width:100%;
+			background-color:#c8e8e0;
+			display:flex;
+		}
+		.contact-container{
+			display:flex;
+			width:80%;
+			margin:0 auto;
+		}
+		.get-touch{
+			width:30%;
+			
+		}
+		.contact-num{
+			width:40%;
+			text-align:center;
+		}
+		.form-contaienr{
+			width:40%;
+		}
+		.form-input{
+			font-size:18px;
+			padding:3px;
+			width:400px;
+			height:45px;
+			margin:8px 0px;
+			border:none;
+			border-radius:6px;
+			font-weight:100;
+			
+		}
+		textarea{
+			resize:none;
+			width:400px;
+			height:150px;
+			margin:8px 0px;
+			border:none;
+			border-radius:6px;
+			font-size:18px;
+		}
+		.sbm-btn{
+			font-size:18px;
+			width:400px;
+			height:45px;
+			border:none;
+			background-color:#2e937a;
+			border-radius:6px;
+			color:#ffffff;
+			margin:8px 0px;
+			
+		}
+		.sbm-btn:hover{
+			background-color:#111111;
+			color:#ffffff;
+			cursor:pointer;
+			transition:0.3s;
+		}
+		
+		
+		/*=============== footer start ==============*/
+		
+		footer{
+				background-color:#333333;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+				
+			}
+			
+			.footer-div p{
+				color:#ffffff;
+				font-size:16px;
+				padding:10px;
+				margin:32px;
+			}
+			.footer-div p a{
+				color:#9b59b6;
+			}
+			.footer-div p a:hover{
+						color:#ffffff;
+						text-decoration:none;
+			}
+		/*=============== footer end ==============*/
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="left-header-div"> 
+				<img src="./images/logo.png" alt="logo"/>
+			</div>
+			<div class="right-header-div">
+				<nav>
+					<ul>
+						<li> <a href="#">Home</a> </li>
+						<li> <a href="#">Our Project</a> </li>
+						<li> <a href="#">About us</a> </li>
+						<li> <a href="#">Contact us</a> </li>
+						<li> <a href="#">Clients</a> </li>
+						<li> <a href="#">FAQ</a> </li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="first-section">
+				<div class="aboutUs-section">
+					<div class="left-about">
+						<h4>ABOUT US</h4>
+						<h5>1000+ customer using Our application.</h5>
+						<p class="headline-p">Powerful and flexible them </p>
+						<p class="headline-p"> Simple, transparent pricing </p>
+						<p class="headline-p"> Build tools and full documention </p>
+						<button class="common-btn onebtn">READ MORE</button>
+					</div>
+					<div class="right-about">
+						<img class="about-img" src="./images/cv-min.png">
+					</div>
+				</div>
+				
+				<div class="bottom-heading" >
+					<h2>Quick & Easy Process</h2>
+					<p class="common-p"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  </p>
+					<p class="common-p"> fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa  </p>
+					<p class="common-p"> qui officia deserunt mollit anim id est laborum.</p>
+					<button class="common-btn"> READ MORE </button>
+				
+				</div>
+				
+			</section>
+			<!--============ clients section ==================-->
+			<section class="client-section">
+				<div class="client-first-div">
+					<h2>We believe in Customer Satisfaction </h2>
+					<p class="headline-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+					<p class="headline-p">dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+				</div>
+				
+				<div class="client-second-div">
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">01</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+					</div>
+					
+					
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">02</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+					</div>
+					
+					
+					
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">03</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+					</div>	
+				</div>
+				
+				
+				<div class="clients-secont-card">
+					
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">04</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+					</div>
+					
+					
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">05</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+					</div>
+					
+					
+					<div class="clients-card-container">
+						<div class="clients-card-heading">
+							<span style="font-size:70px;font-family:cursive; margin-left:10px;font-weight:bolder;color:#2e937a;">06</span>
+							<h3 class="clients-head"> Business Growth</h3>
+							
+						</div>
+						<div class="cliients-card-body">
+							<p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						</div>
+				
+				</div>
+				
+			</section>
+			
+			<!--=============== client section end ==============-->
+			
+			<section class="feature-section">
+			<div class="feature-main-container">
+			
+				<div style="text-align:center;">
+					<h4 style="font-size:32px;">Features</h4>
+				</div>
+				<div style="text-align:center; margin:50px 0px;">
+					<h2 style="font-size:48px;">Our Features & Services.</h2>
+				</div>
+				
+				<div class="feature-card-sec">
+				<div class="feature-card-container">
+					<div class="feature-card-img-div">
+						<p style="text-align:center;"><img class="feature-card-img" src="./images/projec4.jpg" alt="card-logo"></p>
+					</div>
+					<div> 
+						<h5 class="feature-card-heading">Communications</h5>
+						<p style="text-align:center; font-size:17px;line-height:130%; padding:0px 8px; color:#2e937a;">Pretium lectus quam id leo in vitae turpis. Mattis pellentesque id nibh tortor id.</p>
+					</div>
+					<div> 
+						<button class="common-btn">MORE</button>
+					</div>
+				</div>
+				
+				
+				<div class="feature-card-container">
+					<div class="feature-card-img-div">
+						<p style="text-align:center;"><img class="feature-card-img" src="./images/project44.jpg" alt="card-logo"></p>
+					</div>
+					<div> 
+						<h5 class="feature-card-heading">Inspired Design</h5>
+						<p style="text-align:center; font-size:17px;line-height:130%; padding:0px 8px; color:#2e937a;">Pretium lectus quam id leo in vitae turpis. Mattis pellentesque id nibh tortor id.</p>
+					</div>
+					<div> 
+						<button class="common-btn">MORE</button>
+					</div>
+				</div>
+				
+				
+				<div class="feature-card-container">
+					<div class="feature-card-img-div">
+						<p style="text-align:center;"><img class="feature-card-img" src="./images/project444.jpg" alt="card-logo"></p>
+					</div>
+					<div> 
+						<h5 class="feature-card-heading">Happy Customers</h5>
+						<p style="text-align:center; font-size:17px;line-height:130%; padding:0px 8px; color:#2e937a;">Pretium lectus quam id leo in vitae turpis. Mattis pellentesque id nibh tortor id.</p>
+					</div>
+					<div> 
+						<button class="common-btn">MORE</button>
+					</div>
+				</div>
+				</div>
+				
+					<div>
+						<p style="text-align:center; padding:40px 0px;" class="headline-p">image from Freepik</p>
+					</div>
+			</div>
+			</section>
+			
+			<!-- =========== app design section start ===============-->
+			
+			<section>
+				<div class="app-container">
+					<div class="app-card-container">
+						<div class="app-card-heading">
+							<h3>App Design</h3>
+						</div>
+						<div class="app-card-body">
+							<p> Check our latest blog post for more update.</p>
+						</div>
+						<div class="app-card-link">
+							<a href="#">Learn More→</a>
+						</div>
+					</div>
+					
+					<div class="app-card-container" style="background-color:#D6EEE8;">
+						<div class="app-card-heading">
+							<h3>App Design</h3>
+						</div>
+						<div class="app-card-body">
+							<p> Check our latest blog post for more update.</p>
+						</div>
+						<div class="app-card-link">
+							<a href="#">Learn More→</a>
+						</div>
+					</div>
+					
+				</div>
+				
+			</section>
+			<!-- =========== app design section start ===============-->
+			
+			<!--========== About me section start ===============-->
+			
+			<section class="about-me-section">
+			<div class="about-me-container">
+				<div class="about-me-lts">
+					<div>
+						<h5>About Me</h5>
+					</div>
+					<div class="about-me-para">
+						<p>Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum velit euismod in pellentesque massa placerat duis. </p>
+					</div>
+					<div class="about-me-para">
+						<p>Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum velit euismod in pellentesque massa placerat duis. </p>
+					</div>
+				</div>
+				
+				<div class="about-me-rts">
+					<div>
+						<img class="octopas-img" src="./images/octopas.png">
+					</div>
+					<div>
+						<h5 style="margin:0;padding:0; font-size:2.3rem;color:#2e937a;font-weight:normal;">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h5>
+					</div>
+					<div>
+						<button class="common-btn">⌕ Find Me on Linkdein</button>
+					</div>
+					
+				</div>
+			</div>
+			</section>
+			<!--========== About me section end ===============-->
+			
+			<!--============== playstore section start ============-->
+			<section class="play-section">
+		
+					<div class="store-container" style="margin:0 auto; margin-top:-200px;">
+						<div>
+							<h5 style="padding:0;margin:0;">Download it now.</h5>
+						</div>
+						<div>
+							<button class="common-btn">∢App Store</button>
+							<button class="common-btn">ⓖGoogle Play</button>
+						</div>
+						<div>
+							<p class="common-p">Add some helper text here to explain the finer details of your product or service.</p>
+						</div>
+					</div>
+					
+					
+				
+			</section>
+				
+			<!--============== play store section end ============-->
+			
+			<section class="contact-section">
+				<div class="contact-container">
+					<div class="get-touch">
+						<h5>Get in touch</h5>
+						<p class="common-p">We can ensure reliability, low cost fares and most important, with safety and comfort in mind.</p>
+						<p class="common-p">Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
+					</div>
+					
+					
+					<div class="contact-num">
+						<div>
+							<h5>call us</h5>
+							<p class="common-p">1 (234) 567-891</p>
+							<p class="common-p">1 (234) 987-654</p>
+						</div>
+						
+						<div>
+							<h3>location</h3>
+							<p class="common-p">121 Rock Sreet, 21 Avenue,</p>
+							<p class="common-p">New York, NY 92103-9000</p>
+						</div>
+						
+						<div>
+							<h3>Our top services</h3>
+							<p class="common-p">✔Local transfers</p>
+							<p class="common-p">✔Airport Transfers</p>
+							<p class="common-p">✔Excursions and Tours</p>
+						</div>
+					</div>
+					<div class="form-contaienr">
+						<form>
+							<input class="form-input" type="text" placeholder="Enter your Name"> <br/>
+							<input class="form-input" type="email" placeholder="Enter a valid email address"><br/>
+							<textarea></textarea> <br/>
+							<input class="sbm-btn" type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</section>
+			
+		</main>
+		<!--footer start here-->
+		<footer>
+				<div class="footer-div">
+					<p style="text-align:center;">Sample text. Click to select the text box. Click again or double <br/> click to start editing the text.</p>
+				</div>
+				<div class="footer-div">
+					<p> Developed by | Abdulla Al Rakib | front-end web develoepr</p>
+				</div>
+			
+		</footer>
+	</body>
+</html>
